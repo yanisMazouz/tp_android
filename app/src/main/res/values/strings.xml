@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">tp_android</string>
+    <string name="ans">ans</string>
+    <string name="ajouter_un_utilisateur">Ajouter un utilisateur</string>
+</resources>
