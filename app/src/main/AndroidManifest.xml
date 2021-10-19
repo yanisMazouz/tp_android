@@ -3,7 +3,8 @@
     package="fr.ccm.m1.android.tp_android">
 
     <application
-        android:allowBackup="true"
+        android:name=".architecture.CustomApplication"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
