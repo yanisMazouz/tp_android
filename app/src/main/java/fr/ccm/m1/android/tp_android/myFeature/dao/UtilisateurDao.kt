@@ -1,12 +1,11 @@
-package fr.ccm.m1.android.tp_android.dao
+package fr.ccm.m1.android.tp_android.myFeature.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import fr.ccm.m1.android.tp_android.model.LocalUtilisateur
-import fr.ccm.m1.android.tp_android.model.Utilisateur
+import fr.ccm.m1.android.tp_android.myFeature.model.LocalUtilisateur
 
 @Dao
 interface UtilisateurDao {

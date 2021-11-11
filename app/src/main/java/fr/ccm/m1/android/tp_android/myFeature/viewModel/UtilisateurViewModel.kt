@@ -1,13 +1,13 @@
-package fr.ccm.m1.android.tp_android.viewModel
+package fr.ccm.m1.android.tp_android.myFeature.viewModel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.map
 import androidx.lifecycle.viewModelScope
-import fr.ccm.m1.android.tp_android.model.Utilisateur
-import fr.ccm.m1.android.tp_android.model.UtilisateurForRecyclerView
-import fr.ccm.m1.android.tp_android.model.UtilisateurHeader
-import fr.ccm.m1.android.tp_android.repository.UtilisateurRepository
+import fr.ccm.m1.android.tp_android.myFeature.model.Utilisateur
+import fr.ccm.m1.android.tp_android.myFeature.model.UtilisateurForRecyclerView
+import fr.ccm.m1.android.tp_android.myFeature.model.UtilisateurHeader
+import fr.ccm.m1.android.tp_android.myFeature.repository.UtilisateurRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

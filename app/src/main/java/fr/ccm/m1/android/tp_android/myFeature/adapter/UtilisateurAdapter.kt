@@ -1,4 +1,4 @@
-package fr.ccm.m1.android.tp_android.adapter
+package fr.ccm.m1.android.tp_android.myFeature.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -8,9 +8,9 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import fr.ccm.m1.android.tp_android.databinding.ItemCustomRecyclerBinding
 import fr.ccm.m1.android.tp_android.databinding.ItemCustomRecyclerHeaderBinding
-import fr.ccm.m1.android.tp_android.model.Utilisateur
-import fr.ccm.m1.android.tp_android.model.UtilisateurForRecyclerView
-import fr.ccm.m1.android.tp_android.model.UtilisateurHeader
+import fr.ccm.m1.android.tp_android.myFeature.model.Utilisateur
+import fr.ccm.m1.android.tp_android.myFeature.model.UtilisateurForRecyclerView
+import fr.ccm.m1.android.tp_android.myFeature.model.UtilisateurHeader
 
 
 class UtilisateurAdapter(

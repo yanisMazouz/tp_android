@@ -1,10 +1,10 @@
-package fr.ccm.m1.android.tp_android.repository
+package fr.ccm.m1.android.tp_android.myFeature.repository
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.map
 import fr.ccm.m1.android.tp_android.architecture.CustomApplication
-import fr.ccm.m1.android.tp_android.model.LocalUtilisateur
-import fr.ccm.m1.android.tp_android.model.Utilisateur
+import fr.ccm.m1.android.tp_android.myFeature.model.LocalUtilisateur
+import fr.ccm.m1.android.tp_android.myFeature.model.Utilisateur
 
 
 class UtilisateurRepository {

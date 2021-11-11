@@ -1,4 +1,4 @@
-package fr.ccm.m1.android.tp_android.view
+package fr.ccm.m1.android.tp_android.myFeature.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

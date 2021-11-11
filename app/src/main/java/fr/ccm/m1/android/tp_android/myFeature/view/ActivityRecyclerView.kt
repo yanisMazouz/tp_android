@@ -1,4 +1,4 @@
-package fr.ccm.m1.android.tp_android.view
+package fr.ccm.m1.android.tp_android.myFeature.view
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
@@ -10,13 +10,12 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import fr.ccm.m1.android.tp_android.adapter.UtilisateurAdapter
+import fr.ccm.m1.android.tp_android.myFeature.adapter.UtilisateurAdapter
 import fr.ccm.m1.android.tp_android.databinding.ActivityRecyclerViewBinding
-import fr.ccm.m1.android.tp_android.model.Utilisateur
-import fr.ccm.m1.android.tp_android.model.UtilisateurForRecyclerView
-import fr.ccm.m1.android.tp_android.viewModel.UtilisateurViewModel
+import fr.ccm.m1.android.tp_android.myFeature.model.Utilisateur
+import fr.ccm.m1.android.tp_android.myFeature.model.UtilisateurForRecyclerView
+import fr.ccm.m1.android.tp_android.myFeature.viewModel.UtilisateurViewModel
 import kotlin.random.Random
-import kotlin.random.Random.Default.nextInt
 
 class ActivityRecyclerView : AppCompatActivity() {
     private lateinit var binding: ActivityRecyclerViewBinding

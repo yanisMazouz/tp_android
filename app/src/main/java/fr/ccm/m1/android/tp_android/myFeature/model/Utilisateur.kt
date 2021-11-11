@@ -1,4 +1,4 @@
-package fr.ccm.m1.android.tp_android.model
+package fr.ccm.m1.android.tp_android.myFeature.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
