@@ -3,4 +3,6 @@
     <string name="ans">ans</string>
     <string name="ajouter_un_utilisateur">Ajouter</string>
     <string name="tout_supprimer">Tout supprimer</string>
+    <string name="ajouter">ajouter</string>
+    <string name="tout_supprimer2">tout supprimer</string>
 </resources>
