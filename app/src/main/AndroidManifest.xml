@@ -25,6 +25,10 @@
         <activity
             android:name="fr.ccm.m1.android.tp_android.chuckNorris.view.ChuckNorrisActivity"
             android:exported="true">
+        </activity>
+        <activity
+            android:name="fr.ccm.m1.android.tp_android.dog.view.DogActivty"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
